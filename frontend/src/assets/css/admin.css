@@ -1,0 +1,22 @@
+.pagination-custom {
+    display: flex;
+    justify-content: center; /* Center the pagination */
+    padding: 20px 0;         /* Add some vertical padding */
+}
+
+.pagination-custom .page-item .page-link {
+    color: #4f5d73;          /* Define text color for the pagination */
+    background-color: #f8f9fa; /* Background color of pagination items */
+    border-color: #dee2e6;   /* Border color of pagination items */
+}
+
+.pagination-custom .page-item.active .page-link {
+    color: white;            /* Text color for active page */
+    background-color: #4f5d73; /* Background color for active page */
+    border-color: #4f5d73;   /* Border color for active page */
+}
+
+.pagination-custom .page-item:hover .page-link {
+    background-color: #e9ecef; /* Background on hover */
+    border-color: #dee2e6;   /* Border color on hover */
+}
